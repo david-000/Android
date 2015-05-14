@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ueda.social.gps_locater.MainActivity" >
+    <!-- 
+		<item android:id="@+id/add_email" android:title="Add Email" android:showAsAction="never"/> -->
+		<item android:id="@+id/set_default" android:title="Settings" android:showAsAction="never"/>
+		<item android:id="@+id/exit"  android:title="Exit" android:showAsAction="never"/> 
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#aa000000" >
+
+    <EditText
+        android:id="@+id/sender_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Sender Name(Optional)"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textColor="#aaffffff"
+        android:textColorHint="#80ffffff" />
+    <requestFocus />
+    <EditText
+        android:id="@+id/sender_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Sender Email Address"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:textColor="#aaffffff"
+        android:textColorHint="#80ffffff" />
+    	
+
+    	<EditText
+    	    android:id="@+id/sender_password"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+	        android:ems="10"
+	        android:hint="Sender Email Password"
+	        android:inputType="textPassword"
+	        android:padding="5dp"
+	        android:textColor="#aaffffff"
+	        android:textColorHint="#80ffffff" />
+
+    <EditText
+        android:id="@+id/recipient_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Recipient Name(Optional)"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textColor="#aaffffff"
+        android:textColorHint="#80ffffff" >        
+    </EditText>
+    <EditText
+        android:id="@+id/recipient_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Recipient Email Address"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:textColor="#aaffffff"
+        android:textColorHint="#80ffffff" >
+
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@xml/btnselector"
+        android:text="OK"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

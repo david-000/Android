@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/btn_record"
+        android:layout_width="104dp"
+        android:layout_height="70dp"
+        android:layout_alignRight="@+id/btn_sign_in"
+        android:layout_below="@+id/btn_sign_in"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:src="@xml/video" />
+
+    <ImageView
+        android:id="@+id/btn_sign_out"
+        android:layout_width="106dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/btn_record"
+        android:layout_below="@+id/btn_record"
+        android:layout_marginTop="29dp"
+        android:layout_weight="1"
+        android:src="@xml/logout" />
+
+    <ImageView
+        android:id="@+id/btn_sign_in"
+        android:layout_width="107dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"
+        android:src="@xml/sign_btn" />
+
+</RelativeLayout>

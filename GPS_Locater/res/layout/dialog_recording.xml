@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/recording_audio_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="audio.mp3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+		<TextView
+		    android:id="@+id/timerValue"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"		    
+		    android:layout_alignParentRight="true"
+		    android:layout_marginBottom="37dp"
+		    android:text="00:00:000"
+		    android:textColor="#000000"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/mic_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@drawable/microphone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+<!-- 
+        <Button
+            android:id="@+id/btn_record_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@xml/btnselector"
+            android:text="Stop"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+ -->
+        <Button
+            android:id="@+id/btn_record_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@xml/dialog_btnselector"
+            android:text="Start"
+            android:textColor="#000000"
+            />
+<!-- 
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@xml/dialog_btnselector"
+            android:text="Stop"
+            android:textColor="#000000" />
+ -->
+        <Button
+            android:id="@+id/btn_audio_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@xml/dialog_btnselector"
+            android:text="Save"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

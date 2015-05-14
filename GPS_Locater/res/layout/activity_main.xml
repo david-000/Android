@@ -1,0 +1,283 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context="ueda.social.gps_locater.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+
+<!--  
+        <Button
+            android:id="@+id/sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@xml/btnselector"
+            android:text="Sign in with Google Plus"
+            android:textColor="#aaffffff" />
+-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@xml/description_back"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Send To"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#aaffffff" />
+
+            <EditText
+                android:id="@+id/email_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                
+                android:inputType="textEmailAddress" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/message_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Type Message here"
+            android:textColor="#aaffffff" 
+            android:textColorHint="#80ffffff">
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@xml/description_back"
+            android:padding="5dp"
+            android:text="Current Location"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#aaffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="3dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Longitude:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#aaffffff" />
+
+            <TextView
+                android:id="@+id/longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#aaffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="3dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latitude:   "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#aaffffff" />
+
+            <TextView
+                android:id="@+id/latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#aaffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@xml/description_back"
+            android:padding="5dp"
+            android:text="Attach Files"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#aaffffff" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp" >
+
+            <Button
+                android:id="@+id/btn_add_audio"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@xml/btnselector"
+                android:text="Audio"
+                android:textColor="#aaffffff" />
+
+            <ImageView
+                android:id="@+id/btn_delete_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@xml/btn_delete" />
+
+            <TextView
+                android:id="@+id/audio_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btn_add_audio"
+                android:layout_alignBottom="@+id/btn_add_audio"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/btn_add_audio"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#aaffffff" />
+<!--  
+            <TextView
+                android:id="@+id/audio_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/audio_name"
+                android:layout_alignBottom="@+id/audio_name"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/audio_name"
+                android:text="Size"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#aaffffff" />
+                -->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_add_photo"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@xml/btnselector"
+                android:text="Photo"
+                android:textColor="#aaffffff" />
+
+            <ImageView
+                android:id="@+id/btn_delete_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@xml/btn_delete" />
+<!--  
+            <TextView
+                android:id="@+id/photo_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btn_add_photo"
+                android:layout_alignBottom="@+id/btn_add_photo"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/photo_name"
+                android:text="Size"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#aaffffff" />
+-->
+
+            <TextView
+                android:id="@+id/photo_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btn_add_photo"
+                android:layout_alignBottom="@+id/btn_add_photo"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/btn_add_photo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#aaffffff" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@xml/btnselector"
+            android:text="Send"
+            android:textColor="#aaffffff" />
+
+    </RelativeLayout>
+
+</LinearLayout>

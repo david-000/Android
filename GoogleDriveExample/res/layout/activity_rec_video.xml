@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000" >
+
+        <com.skd.androidrecording.video.AdaptiveSurfaceView
+            android:id="@+id/camera_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+       <Button
+        android:id="@+id/take_photo_home_btn"
+        android:layout_width="@dimen/home_button_width"
+        android:layout_height="@dimen/home_button_height"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="15dip"
+        android:background="@xml/exit_btn"
+        android:onClick="onBack" />
+
+       <Button
+        android:id="@+id/take_photo_shutter_btn"
+        android:layout_width="@dimen/photo_take_btn_width"
+        android:layout_height="@dimen/photo_take_btn_width"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/video_rec"
+        android:onClick="onStartRec" />
+       
+       <Button
+        android:id="@+id/stop_rec_btn"
+        android:layout_width="@dimen/photo_take_btn_width"
+        android:layout_height="@dimen/photo_take_btn_width"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/video_rec_stop"
+        android:onClick="onStopRec"
+        android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

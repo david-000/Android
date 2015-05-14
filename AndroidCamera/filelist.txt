@@ -1,0 +1,5 @@
+
+AndroidCamera/AndroidManifest.xml
+AndroidCamera/res/layout/main.xml
+AndroidCamera/res/layout/control.xml
+AndroidCamera/src/com/exercise/AndroidCamera/AndroidCamera.java

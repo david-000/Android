@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default -->
+    <dimen name="home_button_width">35dip</dimen>
+    <dimen name="home_button_height">35dip</dimen>
+    <dimen name="home_button_width1">30dip</dimen>
+    <dimen name="top_bar_height">45dip</dimen>
+    <dimen name="top_bar_logo_height">30dip</dimen>
+    <dimen name="content_margin">15dp</dimen>
+    <dimen name="photo_view_height">80dip</dimen>
+
+    <!-- Splash -->
+    <dimen name="splash_logo_width">262dip</dimen>
+    <dimen name="splash_logo_height">80dip</dimen>
+
+    <!-- Login Activity -->
+    <dimen name="login_horizontal_margin">40dip</dimen>
+    <dimen name="login_edittext_height">39dip</dimen>
+    <dimen name="login_edittext_space">10dip</dimen>
+    <dimen name="login_input_size">14sp</dimen>
+
+    <!-- Dialog -->
+    <dimen name="dialog_text_size">14sp</dimen>
+    <dimen name="dialog_title_size">18sp</dimen>
+    <dimen name="dialog_btn_width">66dip</dimen>
+    <dimen name="dialog_btn_height">33dip</dimen>
+    <dimen name="triangle_width">18dip</dimen>
+    <dimen name="triangle_height">13dip</dimen>
+
+    <!-- Home Activity -->
+    <dimen name="home_menu_height">82dip</dimen>
+    <dimen name="home_menu_btn_size">51dip</dimen>
+    <dimen name="home_pop_width">80dip</dimen>
+    <dimen name="home_pop_height">90dip</dimen>
+    <dimen name="home_pop_padding">5dip</dimen>
+    <dimen name="home_pop_margin">10dip</dimen>
+    <dimen name="home_pop_textsize">12sp</dimen>
+
+    <!-- Photo Take Activity -->
+    <dimen name="photo_take_btn_width">100dip</dimen>
+
+    <!-- Play Video -->
+    <dimen name="play_btn_width">19dp</dimen>
+    <dimen name="play_btn_height">22dp</dimen>
+
+    <!-- Setting Activity -->
+    <dimen name="setting_top_margin">42dp</dimen>
+    <dimen name="setting_btn_width">280dp</dimen>
+    <dimen name="setting_btn_height">53.5dp</dimen>
+    <dimen name="setting_btn_spacing">15dp</dimen>
+    <dimen name="setting_btn_font_size">21sp</dimen>
+
+    <!-- Send MSG -->
+    <dimen name="send_msg_height">60dp</dimen>
+    <dimen name="send_msg_padding">10dp</dimen>
+
+    <!-- View MSG -->
+    <dimen name="list_msg_padding">6dp</dimen>
+    <dimen name="list_msg_img_width">40dp</dimen>
+    <dimen name="list_msg_height">57dp</dimen>
+    <dimen name="list_msg_img_padding">12dp</dimen>
+    <dimen name="list_msg_title_size">14sp</dimen>
+    <dimen name="list_msg_desc_size">11sp</dimen>
+
+    <!-- Call Log -->
+    <dimen name="call_tab_phone_width">15.5dp</dimen>
+    <dimen name="call_tab_phone_height">21dp</dimen>
+    <dimen name="tab_bottom_height">3dp</dimen>
+    <dimen name="call_tab_log_width">15dp</dimen>
+    <dimen name="call_tab_star_width">20dp</dimen>
+    <dimen name="call_tab_star_height">19dp</dimen>
+    <dimen name="call_tab_home_width">20.5dp</dimen>
+    <dimen name="call_tab_home_height">18.5dp</dimen>
+
+    <!-- Dial Pad -->
+    <dimen name="dialpad_input_height">50dp</dimen>
+    <dimen name="dialpad_input_size">30sp</dimen>
+    <dimen name="dialpad_search_width">20dp</dimen>
+    <dimen name="dialpad_call_width">19.5dp</dimen>
+    <dimen name="dialpad_call_height">26dp</dimen>
+    <dimen name="dialpad_del_width">42.5dp</dimen>
+    <dimen name="dialpad_del_height">20.5dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

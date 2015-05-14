@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="focused_color">#c0c0c0</color>
+    <color name="default_color">#ffffff</color>
+    <color name="blue">#000000</color>
+    <color name="write">#ffffff</color>
+</resources>
